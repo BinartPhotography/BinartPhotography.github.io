@@ -7,6 +7,19 @@
     width:350px;
     cursor:pointer;
 }
+.header {
+  background:seagreen;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 92%;
+  padding: 20px 100px 20px 50px; /* adjust the left padding to 50px */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  box-shadow: 2px 2px 9px grey;
+}
 .navbar a {
   position: relative;
   font-size: 20px;
