@@ -8,11 +8,10 @@
     cursor:pointer;
 }
 .header {
-  background:seagreen;
   position: fixed;
   top: 0;
   left: 0;
-  width: 92%;
+  width: 100%;
   padding: 20px 100px 20px 50px; /* adjust the left padding to 50px */
   display: flex;
   justify-content: space-between;
@@ -23,7 +22,7 @@
 .navbar a {
   position: relative;
   font-size: 20px;
-  color: #fff;
+  color: #d02525;
   font-weight: 500;
   text-decoration: none;
   margin-left: 40px;
