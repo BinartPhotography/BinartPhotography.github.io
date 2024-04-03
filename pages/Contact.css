@@ -1,77 +1,95 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://raw.githubusercontent.com/BinartPhotography/BinartPhotography.github.io/main/backgroundcontact.png);
-  background-size:cover;
-  background-position:center;
-  font-family:'Outfit';
-}
-.contain-container{
-  height: 100vh;
+
+body {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(https://raw.githubusercontent.com/BinartPhotography/BinartPhotography.github.io/main/backgroundcontact.png);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Outfit';
+  height: 100vh;
 }
-.contact-left{
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.contact-left {
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap:20px;
+  gap: 20px;
 }
-.contact-left-title h2{
+
+.contact-left-title h2 {
   font-weight: 600;
-  color:#1ff46e;
+  color: #1ff46e;
   font-size: 40px;
   margin-bottom: 5px;
 }
-.contact-left-title hr{
-  border:none;
+
+.contact-left-title hr {
+  border: none;
   width: 120px;
   height: 5px;
   background-color: #1ff46e;
   border-radius: 10px;
   margin-bottom: 20px;
 }
-.contact-inputs{
+
+.contact-inputs {
   width: 400px;
   height: 50px;
   border: none;
   outline: none;
   padding-left: 25px;
   font-weight: 500;
-  color:#666;
+  color: #666;
   border-radius: 50px;
 }
-.contact-left textarea{
+
+.contact-left textarea {
   height: 140px;
   padding-top: 15px;
   border-radius: 20px;
 }
-.contact-inputs:focus{
+
+.contact-inputs:focus {
   border: 2px solid #1ff46e;
 }
-.contact-inputs::placeholder{
-  color:#a9a9a9;
+
+.contact-inputs::placeholder {
+  color: #a9a9a9;
 }
-.contact-left button{
+
+.contact-left button {
   display: flex;
   align-items: center;
   padding: 15px 30px;
-  font-size:16px;
-  color:#fff;
-  gap:10px;
-  border:none;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
   border-radius: 50px;
-  background: linear-gradient(270deg,#ff994f,#fa6d86);
-  cursor:pointer;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
+  cursor: pointer;
 }
-.contact-left button img{
-  height:15px;
+
+.contact-left button img {
+  height: 15px;
 }
-@media (max-width:800px){
-  .contact-inputs{
-    width:80vw;
+
+@media (max-width: 800px) {
+  .contact-inputs {
+    width: 80vw;
   }
+}
