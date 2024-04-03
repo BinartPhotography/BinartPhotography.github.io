@@ -5,7 +5,7 @@
 }
 body{
   font-family:'Outfit';
-  background:linear-gradient(#ffdad5,#fff7f9)
+  background:linear-gradient(#ffdad5,#fff7f9);
 }
 .contain-container{
   height: 100vh;
