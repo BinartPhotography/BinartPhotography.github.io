@@ -12,8 +12,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 94%;
-  padding: 20px 100px 20px 50px; /* adjust the left padding to 50px */
+  width: 99.8%;
+  padding: 20px50px; /* adjust the left padding to 50px */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,11 +22,11 @@
 }
 .navbar a {
   position: relative;
-  font-size: 20px;
+  font-size: 18px;
   color: #d02525;
   font-weight: 500;
   text-decoration: none;
-  margin-left: 40px;
+  margin-left: 49px;
 }
 
 .navbar a::before {
