@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url();
+  background:linear-gradient(#62c682,#60c5d9);
   background-size: cover;
   background-position: center;
   font-family: 'Outfit';
