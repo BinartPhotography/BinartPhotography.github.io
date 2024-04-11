@@ -25,5 +25,11 @@
       <input type="hidden" name="_next" value="https://binartphotography.github.io/pages/Thanks.html">
       <button type="submit"><span></span>Submit message</button>
     </form>
+        <script>
+      // Redirect to "Thank You" page after form submission
+      document.getElementById("contact-form").addEventListener("submit", function() {
+        window.location.href = "https://binartphotography.github.io/pages/Thanks.html";
+      });
+    </script>
   </body>
 </html>
