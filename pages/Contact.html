@@ -16,7 +16,7 @@
         </div>
       </div>
     </nav>
-    <form action="https://formsubmit.co/tuantran729348@email.com" method="POST">
+    <form id="contact-form" action="https://formsubmit.co/tuantran729348@email.com" method="POST">
       <input type="hidden" name="_next" value="https://binartphotography.github.io/pages/Thanks.html">
       <h1>Contact Us</h1>
       <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
@@ -25,5 +25,27 @@
       <textarea rows="5" cols="60" name="message" placeholder="Enter text" autocomplete="off" required></textarea>
       <button type="submit"><span></span>Submit message</button>
     </form>
+    <script>
+  // Get the form
+  const form = document.getElementById('contact-form');
+
+
+  form.addEventListener('submit', () => {
+
+    form.reset();
+
+
+    sessionStorage.setItem('currentPage', window.location.href);
+
+
+    window.location.reload();
+  });
+
+  if (sessionStorage.getItem('currentPage')) {
+    sessionStorage.removeItem('currentPage');
+
+    window.location.reload();
+  }
+</script>
   </body>
 </html>
