@@ -1,0 +1,43 @@
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  color: #4caf50;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 24px;
+  color: #333;
+  margin-top: 0;
+}
+.button {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+span{
+  background: #5bd183;
+  height:100%;
+  width:0;
+  position: absolute;
+  left: 0;
+  bottom:0;
+  z-index: -1;
+  transition: 0.5s;
+}
+button:hover span{
+  width: 100%
+}
+button:hover{
+  border-radius: 20px;
+  border: none;
+}
