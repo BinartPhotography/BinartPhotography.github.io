@@ -42,38 +42,3 @@
 .navbar a:hover::before {
   width: 100%;
 }
-.about-section{
-  width: 100%;
-  min-height: 100vh;
-  background-color: #ddd;
-}
-
-.container{
-  width: 80%;
-  display: block;
-  margin: auto;
-}
-
-.content-section{
-  float: left;
-  width: 55%;
-  margin-top: -250px; 
-}
-.content-section .content h1{
-  margin-top: 20px;
-  color: #5d5d5d;
-  font-size:60px;
-}
-.content-section .content p{
-  margin-top: 0px;
-  color: #5d5d5d;
-  line-height: 1.5;
-  font-family: sans-serif;
-  font-size:18px;
-}
-.left-image{
-  width: 85%;
-  position: relative;
-  top: 400px; /* adjust this value to move the image down */
-  left: 400px; /* adjust this value to move the image to the right */
-}
