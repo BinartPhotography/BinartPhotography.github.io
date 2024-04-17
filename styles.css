@@ -108,3 +108,11 @@ body {
 .slide-nav a:hover {
 	opacity: 1;
 }
+#slide-1, #slide-2, #slide-3 {
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+#slide-1.slide-nav, #slide-2.slide-nav, #slide-3.slide-nav {
+  opacity: 1;
+}
