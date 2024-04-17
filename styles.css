@@ -48,13 +48,16 @@ body {
 }
 
 .container {
-	padding: 2rem;
+	padding: 6rem;
+	overflow:hidden;
+	position:absolute;
 }
 
 .slide-wrapper {
 	position: relative;
-	max-width: 48rem;
+	max-width: 95rem;
 	margin: 0 auto;
+	left:-10%;
 }
 
 .slide {
