@@ -55,9 +55,9 @@ body {
 
 .slide-wrapper {
 	position: relative;
-	max-width: 97.5rem;
+	max-width: 94rem;
 	margin: 0 auto;
-	left:-10%;
+	left:-6%;
 }
 
 .slide {
