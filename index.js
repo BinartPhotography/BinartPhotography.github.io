@@ -1,3 +1,4 @@
+var firstIndex = 0;
 function automaticSlide() {
   setTimeout(automaticSlide, 5000); // Update the transition time to 5 seconds (5000 milliseconds)
 
@@ -9,9 +10,11 @@ function automaticSlide() {
   }
 
   firstIndex++;
-  if (firstIndex > img.length) {
-    firstIndex = 1;
+  if (firstIndex >= img.length) {
+    firstIndex = 0;
   }
 
-  img[firstIndex - 1].style.display = "block";
+  img[firstIndex].style.display = "block";
 }
+
+automaticSlide();
