@@ -8,7 +8,7 @@
     cursor:default;
 }
 .header {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 94%;
@@ -54,7 +54,7 @@ img {
   max-width: 100%;
   position: relative;
   margin: auto;
-  margin-top: 90px;
+  margin-top: 0px;
 }
 /* Next & previous buttons */
 .prev, .next {
