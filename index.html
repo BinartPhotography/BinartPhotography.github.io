@@ -19,25 +19,28 @@
     </div>
     </div>
     </nav>
-    <section class="container">
-    <div class="slide-wrapper">
-        <div class="slide">
-            <div class="img-container">
-            <img id="slide-1" src="https://raw.githubusercontent.com/BinartPhotography/BinartPhotography.github.io/main/420412719_435556468835396_7075970360404701595_n.jpg" alt="The beaches of Da Nang City">
-            </div>
-                <div class="img-container">
-            <img id="slide-2" src="https://raw.githubusercontent.com/BinartPhotography/BinartPhotography.github.io/main/358647088_305082915216086_9208632746470355350_n.jpg" alt="The Dragon Bridge in Da Nang City">
-                </div>
-                    <div class="img-container">
-            <img id="slide-3" src="https://raw.githubusercontent.com/BinartPhotography/BinartPhotography.github.io/main/273708682_154496423608070_4772450908509690675_n.jpg" alt="Osaka City">
-            </div>
-            </div>
-        <div class="slide-nav">
-            <a href="#slide-1"></a>
-            <a href="#slide-2"></a>
-            <a href="#slide-3"></a>
+<div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://raw.githubusercontent.com/BinartPhotography/BinartPhotography.github.io/main/420412719_435556468835396_7075970360404701595_n.jpg" alt="The beaches of Da Nang City" style="width:100%">
         </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://raw.githubusercontent.com/BinartPhotography/BinartPhotography.github.io/main/358647088_305082915216086_9208632746470355350_n.jpg" alt="The Dragon Bridge in Da Nang City" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://raw.githubusercontent.com/BinartPhotography/BinartPhotography.github.io/main/273708682_154496423608070_4772450908509690675_n.jpg" alt="Osaka City"  style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    </section>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
