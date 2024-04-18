@@ -129,21 +129,23 @@ img {
   .prev, .next,.text {font-size: 14px}
 }
 .container{display:inline-block;}
-.text{
-  font-size:5rem;
-  letter-spacing:10px;
-  font-family:monospace;
-  border-right:5px solid;
-  width:100%;
-  white-space:nowrap;
-  overflow:hidden;
+.typewriter h2 {
+  font-size: 3em;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .15em solid black;
   animation:
-  typing 2s steps(33),
-  cursor:.4s step-end infinite alternative;
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
-@keyframes cursor{
-  50%{border-color:transparent}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
-@keyframes typing{
-  from {width:0}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black }
 }
