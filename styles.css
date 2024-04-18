@@ -51,9 +51,10 @@ img {
 }
 /* Slideshow container */
 .slideshow-container {
-  max-width: 80%;
+  max-width: 100%;
   position: relative;
   margin: auto;
+  margin-top: 90px;
 }
 /* Next & previous buttons */
 .prev, .next {
