@@ -149,31 +149,3 @@ img {
   from, to { border-color: transparent }
   50% { border-color: black }
 }
-h1{
-    font-family: "Incosolata", Consolas, monospace;
-    font-size: 4em;
-    color: #d7b94c;
-}
-.typewriter{
-    position: relative;
-}
-.typewriter::after{
-    content: '|';
-    position: absolute;
-    right: 0;
-    color: white;
-    background-color: #1d1f20;
-    width: 100%;
-    animation: typing 3s steps(14) alternate infinite,
-                line 1s infinite;
-}
-@keyframes typing{
-    to{
-        width: 0%;
-    }
-}
-@keyframes line {
-    50%{
-        color: transparent;
-    }
-}
