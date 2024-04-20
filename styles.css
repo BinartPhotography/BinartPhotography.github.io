@@ -159,3 +159,21 @@ button:hover span{
 button:hover{
     border: none;
 }
+.content{
+    width: 100%;
+    position:absolute;
+    top: 30%;
+    transform: translateY(-10%);
+    text-align: center;
+    color:red;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    
+}
