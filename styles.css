@@ -128,3 +128,64 @@ img {
 @media only screen and (max-width: 500px) {
   .prev, .next,.text {font-size: 14px}
 }
+/* Welcome section styles */
+.welcome-section {
+  padding: 80px 0;
+}
+
+.welcome-heading {
+  display:flex;
+  font-size: 33px;
+  font-weight: bold;
+  color: #666;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid #333;
+  animation: typewriter 10s steps(40) 
+  animation-delay: 1s;
+}
+
+.welcome-paragraph {
+  font-size: 25px;
+  color: #666;
+  margin-top: 20px;
+  max-width: 550px;
+  margin: 0 auto;
+  margin-left: 2px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 57.5%;
+  }
+}
+/* social */
+.social {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 0rem;
+}
+
+.social .social-link {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #777;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.social .social-link:hover {
+    color: #4bd64c;
+    border-radius: 50%;
+}
